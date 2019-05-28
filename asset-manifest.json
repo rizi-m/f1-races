@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/f1-races/static/css/main.c3861109.chunk.css",
+    "main.css": "/f1-races/static/css/main.1edce9cb.chunk.css",
     "main.js": "/f1-races/static/js/main.61517f58.chunk.js",
     "main.js.map": "/f1-races/static/js/main.61517f58.chunk.js.map",
     "runtime~main.js": "/f1-races/static/js/runtime~main.fd45dc31.js",
@@ -8,9 +8,9 @@
     "static/js/2.dfb0cf60.chunk.js": "/f1-races/static/js/2.dfb0cf60.chunk.js",
     "static/js/2.dfb0cf60.chunk.js.map": "/f1-races/static/js/2.dfb0cf60.chunk.js.map",
     "index.html": "/f1-races/index.html",
-    "precache-manifest.ea5b0a7a73cc74b7553e46f6181648f3.js": "/f1-races/precache-manifest.ea5b0a7a73cc74b7553e46f6181648f3.js",
+    "precache-manifest.a22f07ad7376005babfb497b798cbe51.js": "/f1-races/precache-manifest.a22f07ad7376005babfb497b798cbe51.js",
     "service-worker.js": "/f1-races/service-worker.js",
-    "static/css/main.c3861109.chunk.css.map": "/f1-races/static/css/main.c3861109.chunk.css.map",
+    "static/css/main.1edce9cb.chunk.css.map": "/f1-races/static/css/main.1edce9cb.chunk.css.map",
     "static/media/App.css": "/f1-races/static/media/background-compressed.0a8a0c0b.jpg",
     "static/media/home-text.png": "/f1-races/static/media/home-text.621bd5e2.png"
   }
