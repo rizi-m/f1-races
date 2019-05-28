@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { latestDriversStadings, latestConstructorStandings } from '../../utils/f1-data';
-import './Standings.css';
+import '../calendar/Calendar.css';
 
 class Standings extends Component {
 
