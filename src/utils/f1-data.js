@@ -42,12 +42,12 @@ export function latestStadings(url, storeKey, onload) {
 }
 
 export function raceSchedule(year, onload) {
-    getData(`http://ergast.com/api/f1/${year}.json`, `race-schedule-${year}`, onload);
+    getData(`https://ergast.com/api/f1/${year}.json`, `race-schedule-${year}`, onload);
 }
 
 export function qualifyingResults(year, race, onload) {
     getData(
-        `http://ergast.com/api/f1/${year}/${race}/qualifying.json`, 
+        `https://ergast.com/api/f1/${year}/${race}/qualifying.json`, 
         `qualifying-results-${year}-${race}`, 
         onload
     );
@@ -55,7 +55,7 @@ export function qualifyingResults(year, race, onload) {
 
 export function raceResults(year, race, onload) {
     getData(
-        `http://ergast.com/api/f1/${year}/${race}/results.json`, 
+        `https://ergast.com/api/f1/${year}/${race}/results.json`, 
         `race-results-${year}-${race}`, 
         onload
     );
@@ -63,7 +63,7 @@ export function raceResults(year, race, onload) {
 
 export function nextRace(onload) {
     getNewDataIfNeeded(
-        'http://ergast.com/api/f1/current/next.json',
+        'https://ergast.com/api/f1/current/next.json',
         'next-race',
         (data) => (new Date(data.MRData.RaceTable.Races[0].date)) < Date.now(),
         onload
@@ -71,9 +71,9 @@ export function nextRace(onload) {
 }
 
 export function latestDriversStadings(onload) {
-    latestStadings('http://ergast.com/api/f1/current/last/driverStandings.json', 'latest-driver-standings', onload);
+    latestStadings('https://ergast.com/api/f1/current/last/driverStandings.json', 'latest-driver-standings', onload);
 }
 
 export function latestConstructorStandings(onload) {
-    latestStadings('http://ergast.com/api/f1/current/last/constructorStandings.json', 'latest-constructor-standings', onload);
+    latestStadings('https://ergast.com/api/f1/current/last/constructorStandings.json', 'latest-constructor-standings', onload);
 }
