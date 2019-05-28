@@ -1,5 +1,14 @@
+#root {
+  height: 100%;
+  background-color: white;
+  background-image: url('./res/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {

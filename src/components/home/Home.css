@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+
+
+.home-image {
+    max-width: 50%;
+    margin-top: 3em;
+}
+
+.next-race {
+    width: 100%;
+    background: #f8f9fa;
+    margin-top: 2em;
+    padding: 5%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .home-image {
+        max-width: 90%;
+    }
+  }
